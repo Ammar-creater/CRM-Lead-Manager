@@ -1,0 +1,29 @@
+﻿# Dependencies (NEVER commit these!)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files (contains secrets!)
+.env
+.env.local
+.env.production
+
+# Build files
+dist/
+build/
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+Thumbs.db
+desktop.ini
